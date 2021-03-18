@@ -10,6 +10,10 @@ const router = new Router({
   mode: 'history',
   routes: [
     {
+      path: '/',
+      redirect: '/books'
+    },
+    {
       path: '/books',
       component: BookList,
       meta: {},
