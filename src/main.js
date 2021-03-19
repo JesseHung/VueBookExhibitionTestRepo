@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import BookList from './book_list.vue'
+import BookList from './BookList.vue'
+import './assets/tailwind.css'
 
 Vue.config.productionTip = false
 
